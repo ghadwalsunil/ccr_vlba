@@ -1,1 +1,3 @@
 venv/
+jupyter_notebooks/config.py
+.vscode/
