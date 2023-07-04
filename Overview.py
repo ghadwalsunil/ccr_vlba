@@ -10,7 +10,7 @@ st.write('Mobility Worldwide (MWW) is a global corporation with an emphasis on s
 st.subheader('CCR Scenario:') 
 st.write('The Consulting and Customer Retention(CCR) department is responsible for client consultations at all interaction levels, from large auto dealerships to representing the company at trade shows. Employees start their business trips from their allocated branch locations. Members of group 01 has been hired as analysts in the CCR department and asked by the board to utilize historical data on employees, previous business trips, maintenance costs of branches, and required business assets. The motive is to analyze the data and determine the financial viability of the current stores as well as the profitability of opening a branch in a new location within the strategic region.')
 
-image = Image.open('System Architexcture.png')
+image = Image.open('images/System Architexcture.png')
 
 st.image(image, caption='System Architecture')
 
