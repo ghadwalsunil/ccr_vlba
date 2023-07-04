@@ -8,6 +8,8 @@ st.subheader('Visualize the business trips of the consultants. If a client is at
 st.markdown(
     """
     <iframe width="1500" height="800" src="https://lookerstudio.google.com/embed/reporting/65e625c8-504d-4865-94c8-e0c718b64703/page/tEnnC" frameborder="0" style="border:0" allowfullscreen></iframe>
+   
+<iframe width="1500" height="800" src="https://lookerstudio.google.com/embed/reporting/47c257d8-9539-454d-8fef-4d38ad22bb97/page/tEnnC" frameborder="0" style="border:0" allowfullscreen></iframe>
     """,
     unsafe_allow_html=True,
 )

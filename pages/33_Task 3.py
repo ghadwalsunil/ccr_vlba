@@ -4,6 +4,11 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Task 3", page_icon=":bar_chart:", layout="wide")
 st.title("Task 3")
 st.subheader('Investigate whether it would be sensible to open a new branch office. Use your findings from the previous tasks and try to suggest the board where a new branch could be located. You can also reason about what effect it would have had if a new branch would have been opened at the suggested location one year ago.')
+from PIL import Image
+
+image = Image.open('static map.jpg')
+
+st.image(image, caption='Map showing the density of business locations around Garbsen')
 
 st.markdown(
     """

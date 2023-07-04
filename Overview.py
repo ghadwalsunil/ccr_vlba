@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from PIL import Image
 
 # Initial Setup
 
@@ -9,14 +10,9 @@ st.write('Mobility Worldwide (MWW) is a global corporation with an emphasis on s
 st.subheader('CCR Scenario:') 
 st.write('The Consulting and Customer Retention(CCR) department is responsible for client consultations at all interaction levels, from large auto dealerships to representing the company at trade shows. Employees start their business trips from their allocated branch locations. Members of group 01 has been hired as analysts in the CCR department and asked by the board to utilize historical data on employees, previous business trips, maintenance costs of branches, and required business assets. The motive is to analyze the data and determine the financial viability of the current stores as well as the profitability of opening a branch in a new location within the strategic region.')
 
+image = Image.open('System Architexcture.png')
 
-st.title("Data Exploration and Analysis")
-st.markdown(
-    """
-<iframe width="1500" height="900" src="https://lookerstudio.google.com/embed/reporting/5bc4ef0b-c2bb-4439-adf4-d2145fec742a/page/tEnnC" frameborder="0" style="border:0" allowfullscreen></iframe>    """,
-    unsafe_allow_html=True,
-)
-
+st.image(image, caption='System Architecture')
 
 # def embed_data_studio_report(url):
 #     report_html = f'<iframe src="{url}" width="100%" height="600" frameborder="0" allowfullscreen></iframe>, unsafe_allow_html=True'

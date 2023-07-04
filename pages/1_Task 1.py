@@ -8,9 +8,9 @@ st.title("Task 1")
 st.subheader('The average costs for a branch office must be evaluated. Consider all given data regarding rent, personnel, maintenance costs etc.')
 st.markdown(
     """
-<iframe width="1400" height="1050" src="https://lookerstudio.google.com/embed/reporting/e786e6f0-7e75-4a00-a6e3-edb91b1e68cf/page/p_aejxlvpm7c" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="1400" height="1250" src="https://lookerstudio.google.com/embed/reporting/e786e6f0-7e75-4a00-a6e3-edb91b1e68cf/page/p_aejxlvpm7c" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<iframe width="1400" height="1050" src="https://lookerstudio.google.com/embed/reporting/2ba6e417-3502-47fc-974c-a4fb2dd645c3/page/tEnnC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="1400" height="1250" src="https://lookerstudio.google.com/embed/reporting/2ba6e417-3502-47fc-974c-a4fb2dd645c3/page/tEnnC" frameborder="0" style="border:0" allowfullscreen></iframe>
 """,
     unsafe_allow_html=True,
 )
